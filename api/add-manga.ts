@@ -2,7 +2,7 @@ import { VercelRequest, VercelResponse } from '@vercel/node';
 import { pool } from './dbPool.js';
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client/core/index.js';
 import authMiddleware from './authMiddleware.js';
-import { AuthenticatedRequest } from './types.js';
+import { AuthenticatedRequest } from '../src/types.js';
 
 const client = new ApolloClient({
   uri: 'https://graphql.anilist.co',

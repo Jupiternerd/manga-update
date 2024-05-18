@@ -1,5 +1,5 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { AuthenticatedRequest, JwtPayloadWithUserId } from './types';
+import { AuthenticatedRequest, JwtPayloadWithUserId } from '../src/types';
 import jwt from 'jsonwebtoken';
 
 export default function authMiddleware(req: AuthenticatedRequest, res: VercelResponse, next: Function) {
