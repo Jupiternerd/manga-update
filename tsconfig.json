@@ -4,13 +4,17 @@
     "module": "ESNext",
     "strict": true,
     "noEmit": true,
-    "allowImportingTsExtensions": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["api/*"],
+      "@src/*": ["src/*"]
+    }
   },
   "include": ["api/**/*.ts", "src/**/*.ts"]
 }

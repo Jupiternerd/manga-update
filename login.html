@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login/Account</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <header>
+    <h1>Account Home</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div id="loginContainer" style="display: none;">
+      <h1>Login or Register</h1>
+      <input type="username" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button id="loginButton">Login</button>
+      <button id="registerButton">Register</button>
+    </div>
+
+    <div id="loggedInContainer" style="display: none;">
+      <button id="logoutButton" class="logout-button">Logout</button>
+    </div>
+  </div>
+  <script src="/src/login.ts" type="module"></script>
+</body>
+</html>
