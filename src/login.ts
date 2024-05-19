@@ -1,4 +1,3 @@
-import './style.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   const emailInput = document.getElementById('username') as HTMLInputElement;

@@ -1,4 +1,3 @@
-import './style.css';
 import {jwtDecode} from 'jwt-decode';
 
 document.addEventListener('DOMContentLoaded', () => {
