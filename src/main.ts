@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   function handleNoToken() {
-    userContent.innerHTML = '<p>Please <a href="./login.html">login</a> to see your followed mangas.</p>';
+    userContent.innerHTML = '<p>Please <a href="/public/login.html">login</a> to see your followed mangas.</p>';
     fetchPopularManga();
     initializeSearch();
   }
