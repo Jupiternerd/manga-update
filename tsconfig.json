@@ -16,5 +16,5 @@
       "@src/*": ["src/*"]
     }
   },
-  "include": ["api/**/*.ts", "src/**/*.ts", "public/login.ts"]
+  "include": ["api/**/*.ts", "src/**/*.ts", "src/login.ts"]
 }
